@@ -10,5 +10,11 @@ ul{
     background-color: red;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
+    align-items: center;
+    list-style-type: none;
+
+
     
 }
+
+

@@ -1,15 +1,28 @@
+import React from 'react';
+
+import Icon from './icon.svg';
 
 
 
-import CartWidget from './icon.svg';
+
+function CartWidget() {
+
+    return (
 
 
-function icon () {
-return (
-    <button type="button" class="btn btn-success">
-    <img src={CartWidget} class="icon" alt="logo" /> Add to cart</button>
-    
-)
+
+        <button type="button" class="container">
+
+            <img src={Icon} class="icon" alt="logo" />
+
+        </button>
+
+
+
+    )
+
+
 
 }
-export default icon;
+
+export default CartWidget;
