@@ -1,6 +1,7 @@
 import CartWidget from './CartWidget';
 import './NavBar.css';
 import Logo from './logo';
+
 function Navbar () {
 
 return(
@@ -12,6 +13,7 @@ return(
     <li>contact</li>
     <CartWidget/>
     </ul>
+   
 
     
 )
